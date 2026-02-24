@@ -20,13 +20,12 @@ Please read it carefully before starting!
 4. Save evidence that your code runs correctly, such as terminal outputs, logs, screenshots, profiler outputs, and the required plots/figures where applicable.
 
 5. You will need to submit your source codes for the following exercises particularly:
-   - **Exercise 2:** .
-   - **Exercise 3:** .
-   - **Exercise 4:** .
-   - 
+   - **Exercise 2:** Extending the Standalone Multicast Example
+   - **Exercise 3:** Batched Multicast for Improved Throughput
+   - **Exercise 4:** Multi Core Matrix Multiplication with Multicast
 6. Required deliverables:
    - A `README.md` with build/run commands for each exercise you implemented
-   - Evidence artifacts committed to the repo (or linked with clear paths.
+   - Evidence artifacts (results, correctness check with the reference implementation, performance comparisons as required) committed to the repo.
 
 ---
 
@@ -40,11 +39,7 @@ For cross-validation, you will:
 2. Follow your assigned classmate’s `README.md` and try to reproduce their results for Assignment 3.
 3. Check whether their outputs match what they claim.
 4. Save evidence of your cross validation attempts (terminal output, screenshots, notes, profiler outputs).
-5. Open an issue on your assigned classmate's repo with your evidence and findings:
-   - what you ran,
-   - what worked,
-   - what did not work (if anything) and how it failed,
-   - whether performance numbers/plots look consistent with their claims.
+5. Open an issue on your assigned classmate's repo with your evidence and findings
 6. Use the Assignment 3 checklist below in your opened issue and feel free to add comments/questions.
 7. You can also reply to the issue opened by your assigned classmate in your own repo.
 
@@ -54,16 +49,13 @@ For cross-validation, you will:
 
 ### Part 1: Your Lab
 
-- ⬜ Completed **Exercise 1** (introduced NoC addressing bug + sync bug, used Watcher/logs to diagnose, reverted changes, program passes again)
-- ⬜ Completed **Exercise 2** (sender participates; output contains **4** copies; correctness verified)
-- ⬜ Profiled Exercise 2 (Release build; Watcher/DPRINT disabled) and recorded firmware time
-- ⬜ Completed **Exercise 3** (batched multicast, `tiles_per_batch = 10`, CB resized correctly, divisibility assertion added)
-- ⬜ Profiled Exercise 3 and compared firmware time vs Exercise 2 (include result in README)
+- ⬜ Completed **Exercise 1** 
+- ⬜ Completed **Exercise 2**
+- ⬜ Completed **Exercise 3** 
+- ⬜ Performance comparison done for Exercise 3
 - ⬜ Completed **Exercise 4** (multicast-enabled multi-core matmul starting from Lab 2 Ex2)
-- ⬜ Implemented **4 reader kernels** for the 4 roles (top-left, left-column, top-row, interior)
-- ⬜ Created **4 semaphores** (A: receivers-ready + slab-sent, B: receivers-ready + slab-sent) on all cores
-- ⬜ Correctness verified for Exercise 4 (matches reference/expected output)
-- ⬜ Performance comparison done for Exercise 4 vs Lab 2 (include plots/summary)
+- ⬜ Performance comparison done for Exercise 4
+- ⬜ Correctness verified for Exercises (matches reference/expected output)
 - ⬜ Clear instructions to reproduce results in `README.md`
 - ⬜ All work committed and pushed to your GitHub Classroom repository
 
