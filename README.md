@@ -17,7 +17,7 @@ Please read it carefully before starting!
 
 3. Complete the exercises by following the instructions in the lab document.
 
-4. Save evidence that your code runs correctly, such as terminal outputs, logs, screenshots, profiler outputs, and the required plots/figures where applicable.
+4. Save evidence that your code runs correctly, such as terminal outputs, logs, screenshots, profiling outputs, and the required plots/figures where applicable.
 
 5. You will need to submit your source codes for the following exercises particularly:
    - **Exercise 2:** Extending the Standalone Multicast Example
