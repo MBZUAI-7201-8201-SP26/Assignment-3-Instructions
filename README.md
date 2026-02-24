@@ -11,7 +11,7 @@ Please read it carefully before starting!
 
 ## Part 1: Do the Lab
 
-1. (Similar to Assignments 1 and 2) Accept the assignment via the GitHub Classroom link.
+1. (Similar to Assignments 1 and 2) Accept the assignment via the GitHub Classroom link: https://classroom.github.com/a/kwKBECvP .
 
 2. Read the [Lab 3 instructions](https://github.com/tenstorrent/tt-metal/blob/main/docs/source/tt-metalium/tt_metal/labs/matmul/lab3/lab3.rst).
 
